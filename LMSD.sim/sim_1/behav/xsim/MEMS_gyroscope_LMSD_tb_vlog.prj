@@ -1,0 +1,10 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../LMSD.srcs/sources_1/new/MEMS_gyroscope_LMSD.v" \
+"../../../../LMSD.srcs/sim_1/new/MEMS_gyroscope_LMSD_tb.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort
